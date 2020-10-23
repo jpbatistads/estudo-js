@@ -16,3 +16,4 @@ const mensagemIdadeFormatada = mensagemIdade.replace('{idade}', idade);
 const mensagemFinal = mensagemNomeFormatada + ' ' + mensagemIdadeFormatada;
 
 console.log(mensagemFinal);
+
