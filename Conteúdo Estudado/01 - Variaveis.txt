@@ -1,0 +1,16 @@
+As variaveis são identificadores e podem
+ser deeclaradas  em Javascript de 3 formas
+com as seguintes palavras-chaves(reservadas)
+
+var
+
+Let
+
+Const
+
+let identificarDaVariavel = "João" // Exemplo de declaração
+
+let identificarDaVariavel; / Esta varíavel retornará undefined, porque nada foi atribuido a sua "etiqueta"
+
+
+Link para estudos:https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Values,_variables,_and_literals

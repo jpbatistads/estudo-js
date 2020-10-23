@@ -1,0 +1,17 @@
+Métodos de string JavaScript
+
+Replace.
+
+O método replace () altera uma string especificada ou uma expressão 
+regular e retorna uma nova string. 
+
+Se tenho uma variável let texto =  "Texto a ser alterado" e quero alterar alguma parte
+com o metódo replace é nescessário especificar.
+
+Criasse uma nova variável, let novoTexto = texto.replace('a ser alterado', 'Alterado')
+
+O primeiro parâmetro é sempre a parte que especifamos para mudar, o segundo é a parte da
+alteração.
+
+
+Links para estudo: https://www.w3schools.com/js/js_string_methods.asp
