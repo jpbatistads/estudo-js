@@ -1,0 +1,8 @@
+O objeto Array do JavaScript é um objeto global usado na construção de 'arrays': 
+objetos de alto nível semelhantes a listas.
+
+Criação de um array.
+
+let lista = [];
+
+A propriedade length especificao tamanho de um array.

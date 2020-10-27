@@ -1,0 +1,1 @@
+Desenvolva um script que separe alguma string e retorno seus espaços separados.

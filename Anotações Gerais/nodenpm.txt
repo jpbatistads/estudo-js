@@ -1,8 +1,0 @@
-1) Conceitualmente, o que é o Node, o NPM e o NPX?
-
-
-2) Como iniciar um projeto utilizando NPM?
-
-3) Qual a diferença entre dependências que estão listadas como dependencies e devDependencies em um arquivo package.json?
-
-4) Como criar uma rotina customizada usando npm?

@@ -14,4 +14,15 @@ O primeiro parâmetro é sempre a parte que especifamos para mudar, o segundo é
 alteração.
 
 
+
+Split
+
+O método split() divide uma String em uma lista ordenada de substrings, 
+coloca essas substrings em um array e retorna o array. A divisão é feita 
+procurando um padrão, onde o padrão é fornecido como o primeiro parâmetro 
+na chamada do método.
+
+
+
+
 Links para estudo: https://www.w3schools.com/js/js_string_methods.asp
