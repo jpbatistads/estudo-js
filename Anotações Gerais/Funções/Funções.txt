@@ -1,0 +1,24 @@
+Funções são rotinas, tarefas que são executadas 
+dentro de nosso código.
+
+Algumas formas de criar funções são:
+
+Forma mais comum.
+
+function nomeDaFuncao (parametros){
+//return
+}
+
+Atribuição de uma variável a uma função.
+
+let minhaFuncao = function (x){
+    return x+x
+}
+
+ Arrow functions
+
+ const sum = (a, b) => {
+  return a + b
+}
+
+Criamos funções para ser reaproveitadas em várias partes de nossa aplicação.

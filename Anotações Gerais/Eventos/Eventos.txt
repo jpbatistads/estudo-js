@@ -1,0 +1,34 @@
+Eventos são ações ou ocorrências que acontecem no sistema que estamos desenvolvendo.
+
+o sistema irá disparar algum tipo de sinal quando o evento acontecer, 
+além de prover um mecanismo pelo qual alguma ação automática possa ser executada
+(ou seja, rodar algum código) quando o evento ocorrer. Por exemplo, em um aeroporto,
+quando a pista está livre para um avião decolar, um sinal é repassado ao piloto, e 
+como resultado, ele inicia a decolagem.
+
+Tipos de eventos
+
+O usuário clicando com o mouse sobre um certo elemento ou passando o cursor do mouse sobre um certo elemento.
+
+O usuário pressionando uma tecla do teclado.
+
+O usuário redimensionando ou fechando a janela do navegador.
+
+Uma pagina da web terminando de carregar.
+
+Um formulário sendo enviado.
+
+Um video sendo reproduzido, interrompido, ou terminando sua reprodução.
+
+Um erro ocorrendo.
+
+Há vários outros categorizados como
+
+Eventos de teclados, formulários etc...
+
+Saiba mais => https://developer.mozilla.org/en-US/docs/Web/Events
+
+
+
+
+https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript/Elementos_construtivos/Events
