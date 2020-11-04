@@ -1,0 +1,130 @@
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Busca de Gatos e Cachorros</title>
+</head>
+
+<body>
+
+    <div class="resultados">
+        <div id="cat_result" class="result">
+            <p>Busca de Gatos Aleatória</p>
+        </div>
+        <div id="dog_result" class="result">
+            <p>Busca de Cachorros Aleatória</p>
+        </div>
+    </div>
+
+
+    <div class="buttons">
+        <button id="cat_btn">Buscar Um Gato</button>
+        <button id="dog_btn">Buscar Um Cachorro</button>
+    </div>
+
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+	background-image: linear-gradient( 180deg,  rgba(247,247,247,1) 23.8%, rgba(252,221,221,1) 92% );
+	font-family: 'Open Sans', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	height: 100vh;
+	margin: 0;
+}
+
+.resultados {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.result {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px;
+	height: 400px;
+	width: 300px;
+}
+
+.result img {
+	object-fit: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	background-color: darksalmon;
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px;
+	margin: 10px;
+	width: 300px;
+}
+
+button:active {
+	transform: scale(0.98);
+}
+
+button:focus {
+	outline: none
+}
+
+</style>
+
+
+<script>
+
+const cat_btn = document.getElementById('cat_btn');
+const dog_btn = document.getElementById('dog_btn');
+const cat_result = document.getElementById('cat_result');
+const dog_result = document.getElementById('dog_result');
+
+//Ouvinte de Eventos
+cat_btn.addEventListener('click', getGato);
+dog_btn.addEventListener('click', getCachorro);
+
+//Funções que buscam imagens na API.
+function getGato() {
+	fetch('https://aws.random.cat/meow')//Request (Solicitação get de busca de dados)
+		.then(response => response.json())// Fetch em Json, tratamento do corpo do pedido
+		.then(data => {
+			cat_result.innerHTML = `<img src=${data.file} alt="cat" />`
+		});
+}
+
+function getCachorro() {
+	fetch('https://random.dog/woof.json')
+		.then(response => response.json())
+		.then(data => {
+			if(data.url.includes('.mp4')) {
+				getCachorro();
+			}
+			else {
+				dog_result.innerHTML = `<img src=${data.url} alt="dog" />`;
+			}
+		});
+}
+
+
+
+
+</script>
+</body>
+
+</html>

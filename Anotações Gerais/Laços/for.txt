@@ -1,0 +1,17 @@
+Podemos descrever o loop ou looping em um software como uma instrução que fica se repetindo 
+até que uma determinada condição seja contemplada.
+
+Ou seja, dentro do loop o programa vai ficar repetindo determinada tarefa até que uma 
+condição do programada interrompa esse “laço de repetição” ou execute outra função.
+
+
+
+
+
+
+
+
+
+
+
+Aula Sobre: https://www.youtube.com/watch?v=g6D6RFiv6Qg
