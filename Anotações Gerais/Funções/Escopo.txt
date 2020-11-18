@@ -1,0 +1,13 @@
+As variáveis definidas no interior de uma função não podem ser acessadas 
+de nenhum lugar fora da função, porque a variável está definida apenas no 
+escopo da função. 
+
+OBS: No entanto, uma função pode acessar todas variáveis e funções
+definida fora do escopo onde ela está definida.
+
+Em outras palavras, a função definida no escopo global pode acessar todas as 
+variáveis definidas no escopo global. 
+
+A função definida dentro de outra função também pode acessar todas as variáveis 
+definidas na função hospedeira e outras variáveis ao qual a função hospedeira tem
+acesso.

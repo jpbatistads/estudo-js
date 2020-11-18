@@ -1,0 +1,16 @@
+O vanilla JS nada mais é do que JavaScript puro!
+
+Isso na verdade é uma pequena piada devido ao surgimento
+ de tantos frameworks e bibliotecas que envolvem a linguagem
+_____________________________________________________________
+
+Existe um site que denomina o Vanilla JS como um framework, apresentando como leve e rápido
+
+E utilizado por diversas empresas como: Google, YouTube, Facebook e etc.
+
+Porém verificando a documentação do mesmo, o autor do site utiliza exemplos da
+linguagem JavaScript sem qualquer framework
+
+Você pode ver o site aqui: http://vanilla-js.com/
+
+Nada mais é que uma referência a linguagem JavaScript em sua forma pura

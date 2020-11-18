@@ -1,0 +1,15 @@
+A estrutura condicional possibilita a escolha de ações em nosso código
+ela pode ser simples ou composta, a execução depende se as mesmas são
+falsas ou verdadeiras.
+
+Simples = Executa um comando ou vários comandos se a condição for verdadeira.
+
+
+Composta =  A Estrutura Condicional Composta segue o mesmo princípio da Estrutura 
+Condicional Simples, com a diferença de que quando a condição não é satisfeita, 
+será executado o outro comando.
+
+
+
+
+Mais informações: http://fabrica.ms.senac.br/2013/06/algoritmo-estruturas-condicionais/

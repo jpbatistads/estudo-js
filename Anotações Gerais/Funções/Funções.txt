@@ -6,7 +6,7 @@ Algumas formas de criar funções são:
 Forma mais comum.
 
 function nomeDaFuncao (parametros){
-//return
+//return 
 }
 
 Atribuição de uma variável a uma função.
@@ -22,3 +22,17 @@ let minhaFuncao = function (x){
 }
 
 Criamos funções para ser reaproveitadas em várias partes de nossa aplicação.
+
+Variáveis declaradas dentro das funções são locais, ou seja só são acessadas localmente
+fora do escopo não são visivéis.
+
+Parametros da função: Os parametros são declrados entre os () e eles são retornados 
+no escopoda função com a palavra chave return.
+
+Exemplo: function somaValores(x,y){
+  return x+y
+}
+
+Se não passarmos argumentos para uma função o valor será undefined
+
+ A função consiste em uma instrução que indica para retornar o argumento da função
