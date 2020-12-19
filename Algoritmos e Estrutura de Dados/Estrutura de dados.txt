@@ -1,0 +1,21 @@
+Estruturas de dados (Data Structures) é o nome dado a organização de dados e algoritmos de forma 
+coerente e racional de modo a otimizar o seu uso. De acordo com o modo como um conjunto de dados são 
+organizados e como as operações que são efetuadas sobre estes dados pode-se solucionar de forma simples
+problemas extremamente complexos.
+
+Existem diversos modelos de estruturas de dados, e novos modelos são criados 
+constantemente pois acompanham também a evolução dos algoritmos e das linguagens de 
+programação. Neste livro iremos abordar as estruturas clássicas, as quais podem ser 
+utilizadas com sucesso na maioria dos casos.
+
+É um dos temas fundamentais da ciência da computação, utilizado nas mais variadas áreas e 
+para as mais variadas finalidades. No entanto para começarmos a entender o conceito devemos,
+antes entender o conceito de algoritmos, pois #algoritmos manipulam dados.
+
+Dados quando estão organizados de uma forma coerente representam uma estrutura de dados. 
+Escolher uma estrutura de dados ideal pode tornar-se um problema difícil para uma determinada 
+solução. As pesquisas e estudos das estruturas de dados estão em constante desenvolvimento,
+apesar disso, existem estruturas que têm se mostrado padrão, ou seja, são clássicas.
+
+Estruturas de dados possuem características básica, no entanto finalidades bastante diversas. 
+Podem ser implementadas usando vetores (estático) ou ponteiro (dinâmico).

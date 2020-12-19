@@ -1,43 +1,47 @@
 <html lang="pt-br">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Exercícios Javascprit</title>
-   </head>
-   <body>
-      <div class="container">
-         <h1>Soma De Valores</h1>
-         <h2></h2>
-         <hr>
-         <br>
-         <form>
-           <fieldset>
-               <legend>Adicione Valores Númericos</legend>
-               <label for="valor2">Valor 1:</label>
-               <input type="number" class="valor1"  /><br><br>
-               <label for="valor1">Valor 2:</label>
-               <input type="number" class="valor2" /><br><br>
-               <button onclick="calcular()">Resultado</button>
-               <p class="resultado"></p>
-           </fieldset>
-         </form>
-      </div>
-      <style>
-         body {
-         background-color: #f4f4f473;
-         }
-         h1 {
-         text-align: center;
-         }
-      </style>
-   </body>      
-   <script>
-         function calcular() {
-    var valor1 = document.querySelector(".valor1").value;
-    var valor2 = document.querySelector(".valor2").value;
-   
-    var resultado = parseInt(valor1) + parseInt(valor2);
-    document.querySelector(".resultado").innerHTML = alert("O Resultado é" +" "+ resultado)
-}
-   </script>
-</html> 
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Javascprit</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Soma De Valores</h1>
+        <h2></h2>
+        <hr>
+        <br>
+        <form>
+            <fieldset>
+                <legend>Adicione Valores Númericos</legend>
+                <label for="valor2">Valor 1:</label>
+                <input type="number" class="valor1" /><br><br>
+                <label for="valor1">Valor 2:</label>
+                <input type="number" class="valor2" /><br><br>
+                <button onclick="calcular()">Resultado</button>
+                <p class="resultado"></p>
+            </fieldset>
+        </form>
+    </div>
+    <style>
+        body {
+            background-color: #f4f4f473;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    </style>
+</body>
+<script>
+    function calcular() {
+        var valor1 = document.querySelector(".valor1").value;
+        var valor2 = document.querySelector(".valor2").value;
+
+        var resultado = parseInt(valor1) + parseInt(valor2);
+        document.querySelector(".resultado").innerHTML = alert("O Resultado é" + " " + resultado)
+    }
+</script>
+
+</html>
