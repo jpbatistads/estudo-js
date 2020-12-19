@@ -2,15 +2,38 @@ As variaveis são identificadores e podem
 ser deeclaradas  em Javascript de 3 formas
 com as seguintes palavras-chaves(reservadas)
 
-var
+# var 
 
-Let
+--> Variável global, pode ser chamada em qualquer parte do código.
 
-Const
+--> Pode ocorrer problemas de depuração, usar em ultimo caso.
 
-let identificarDaVariavel = "João" // Exemplo de declaração
+# Let
 
-let identificarDaVariavel; / Esta varíavel retornará undefined, porque nada foi atribuido a sua "etiqueta"
+--> Só funciona dentro do bloco onde declarou a váriavel, é um âmbito estrito
+--> Existe apenas aonde foi criada.
+
+# Const
+
+--> O escopo da Const é o mesmo da let, a particulariedade é que não é possível reatribuir valor.
+
+# OBS
+
+--> As 3 formas possuem diferenças relativas ao escopo.
+
+
+É possível declarar muitas váriaveis separando por vírgulas.
+
+Valor = indefinido
+
+--> Em programas de computador, as variáveis ​​são frequentemente declaradas sem valor. 
+--> O valor pode ser algo que precisa ser calculado ou algo que será fornecido posteriormente,
+--> como uma entrada do usuário.
+
+--> Uma variável declarada sem um valor terá o valor undefined.
+
+--> Exemplo: var products;
+
 
 
 Link para estudos:https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Values,_variables,_and_literals

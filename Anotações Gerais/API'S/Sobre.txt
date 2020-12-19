@@ -1,0 +1,1 @@
+Quando vamos utilizar uma API geralmente precisamos criar uma chave.

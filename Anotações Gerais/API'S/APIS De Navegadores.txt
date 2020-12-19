@@ -1,0 +1,26 @@
+APIs para manipular documentos carregados no navegador. 
+
+O exemplo mais óbvio é a API DOM (Document Object Model), 
+que permite manipular HTML e CSS — criando, removendo a 
+alterando o HTML, aplicando dinamicamente novos estilos 
+a sua página, etc. 
+
+Toda vez que você vê uma janela pop-up em uma página, ou 
+um novo conteúdo é mostrado, o DOM est em ação.
+
+--------------------------------------------------------
+
+APIs que buscam dados no servidor para atualizar pequenas 
+seções da página, por conta própria, são bastante usadas. 
+
+Isso, a princípio, parece ser um detalhe pequeno, mas tem 
+um impacto enorme na performance e no comportamento dos 
+sites. 
+
+Se você precisa atualizar a cotação de uma ação ou listar 
+novas histórias disponíveis, a possibilidade de fazer isso 
+instantaneamente sem precisar atualizar a página dá a impressão 
+de um site muito mais responsivo. Entre as APIs que tornam isso possível,
+podemos destacar o XMLHttpRequest e a API Fetch. 
+
+Para saber mais: https://wiki.developer.mozilla.org/pt-BR/docs/Learn/JavaScript/Client-side_web_APIs/Fetching_data
