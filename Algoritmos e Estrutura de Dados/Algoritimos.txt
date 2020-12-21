@@ -1,6 +1,0 @@
-Um algoritmo nada mais é do que uma receita que mostra passo a passo os procedimentos necessários 
-para a resolução de uma tarefa. ... Em termos mais técnicos, um algoritmo é uma sequência lógica, 
-finita e definida de instruções que devem ser seguidas para resolver um problema ou executar uma
-tarefa.
-
-OBS: Tema fundamental para entender estrutura de dados.

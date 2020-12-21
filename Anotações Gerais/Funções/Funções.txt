@@ -1,6 +1,8 @@
 Funções são rotinas, tarefas que são executadas 
 dentro de nosso código.
 
+São consideradas "subprogramas" que pode ser chamado por código externo.
+
 Algumas formas de criar funções são:
 
 Forma mais comum.
@@ -35,4 +37,4 @@ Exemplo: function somaValores(x,y){
 
 Se não passarmos argumentos para uma função o valor será undefined
 
- A função consiste em uma instrução que indica para retornar o argumento da função
+A função consiste em uma instrução que indica para retornar o argumento da função

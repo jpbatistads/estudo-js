@@ -1,0 +1,30 @@
+"A abstração é nossa mais importante ferramenta mental para lidar com a complexidade.
+Portanto, um problema complexo não poderia ser visto imediatamente em termos de instruções 
+de computador […] mas, antes, em termos de entidades naturais ao próprio problema, 
+abstraído de maneira adequada."
+
+NIKLAUS WIRTH (1989)
+
+O significado da palavra abstrair, segundo o Dicionário Aurélio, 
+é considerar isoladamente um ou mais elementos de um todo. Assim, 
+em programação, abstrair é imaginar um problema maior dividido em problemas menores,
+para resolvê-los isoladamente e, posteriormente, uni-los, produzindo a solução do problema.
+
+Abstração é a habilidade de concentrar nos aspectos essenciais de 
+um contexto qualquer, ignorando características menos importantes ou acidentais. 
+
+Em modelagem orientada a objetos, uma classe é uma abstração 
+de entidades existentes no domínio do sistema de software.
+
+Dominar a habilidade de pensar de forma abstrata sobre oscomponentes de um 
+programa de computador é um problema para o estudante de séries iniciais de
+cursos de computação. Enquanto não desenvolve essa habilidade, o estudante 
+tendea ver um programa como uma coleção não estruturada de declarações e expressões.
+
+# É nescessário enxergar um programa como uma coleção de funções e classes.
+
+Características importantes de  de um programa:
+
+• a estrutura hierárquica dos componentes do software (módulos);
+
+• a estrutura dos dados.

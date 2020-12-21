@@ -19,3 +19,12 @@ apesar disso, existem estruturas que têm se mostrado padrão, ou seja, são cl�
 
 Estruturas de dados possuem características básica, no entanto finalidades bastante diversas. 
 Podem ser implementadas usando vetores (estático) ou ponteiro (dinâmico).
+
+Mesmo considerando o conhecimento de uma linguagem de programação suficientemente para 
+a construção de algoritmos que respondam a determinados problemas, é preciso não esquecer
+que a solução de problemas mais complexos exige o conhecimento e a aplicação da teoria de
+estruturas de dados, ainda que se tenha um conhecimento avançado de todos os recursos que 
+uma linguagem oferece, e constituí um elemento fundamental nos cursos de computação.
+
+
+Dica de livro para o assunto: The Art of Computer Programming : Donald E. Knuth

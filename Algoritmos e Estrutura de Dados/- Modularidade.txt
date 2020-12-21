@@ -1,0 +1,18 @@
+É um conceito bastante antigo que consiste em dividir um software em componentes individuais, 
+rotulados e endereçáveis, chamados módulos, que, uma vez integrados, atendem aos requisitos do 
+problema (“dividir para conquistar”). A Figura 1.1 representa essa ideia.
+
+O uso da abstração no desenvolvimento de programas permite focar no essencial
+e a modularização a dividir um "grande problema" em partes menores.
+
+A técnica que divide o problema em módulos cria uma estrutura hierárquica 
+de componentes de software.
+
+Componentes de Software é o termo utilizado para descrever o elemento de 
+software que encapsula uma série de funcionalidades. 
+
+Um componente é uma  unidade independente, que pode ser utilizado com outros 
+componentes para formar um sistema mais complexo
+
+Sistemas complexos são formados por componentes com responsabilidades
+únicas cada um desempenhado seu papel.  

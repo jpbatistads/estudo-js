@@ -1,0 +1,34 @@
+Cada nome (identificador) em um programa, em qualquer linguagem, tem um tipo associado
+a ele. Esse tipo determina que operações podem ser aplicadas ao nome e como elas devem ser 
+interpretadas.
+
+Também chamados de estruturas de dados primitivas, tipos de dados primitivos são aqueles que estão disponíveis na maioria dos
+ computadores, como:
+
+ # Inteiros
+ # Reais
+ # Lógicos
+ # Caracteres
+
+ Inteiros reais e lógicos possuem conjuntos,operações e comparações,
+ os caracteres por serem "strings" não possuem operações
+
+ OBS: Em geral, você não pode executar operações matemáticas com strings
+ mesmo que os strings se pareçam com números.
+
+ Em um exemplo de javascript teríamos que utilizar um parseInt.
+
+ # Tipos de dados não primitivos são aqueles construídos a partir dos tipos primitivos. = Objetos
+Os principais tipos são:
+
+• arranjos (array) - vetores e matrizes;
+
+• cadeia de caracteres (strings);
+
+• tabelas;
+
+• listas ligadas;
+
+• listas lineares; e
+
+• listas não lineares.
