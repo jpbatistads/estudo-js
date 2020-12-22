@@ -1,0 +1,16 @@
+Os aplicativos Angular são modulares e o Angular tem seu próprio sistema de modularidade 
+chamado NgModules . 
+
+Eles podem importar funcionalidades que são exportadas de outros NgModules e exportar 
+funcionalidades selecionadas para uso por outros NgModules.
+
+Quando iniciamos um projeto Angular o mesmo já vem com módulos padrões.
+
+# BrowserModule 
+
+Fornece serviços essenciais para iniciar e executar um aplicativo de navegador.
+
+-->Não importe BrowserModuleem nenhum outro módulo
+
+Com os módulos Angulares podemos fazer e escolher quais são vísiveis ou não
+utilizando o exports e imports.

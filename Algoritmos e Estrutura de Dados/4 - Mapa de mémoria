@@ -1,0 +1,20 @@
+Em ciência da computação, um mapa de memória é uma estrutura de dados 
+(que normalmente reside na memória propriamente dita) que indica como 
+a memória é organizada. ... Estes mapas são usados para resolver 
+endereços de memória (como ponteiros de função) em símbolos reais.
+
+A maioria das linguagens de programação utiliza um esquema de segmentação 
+de memória em pelo menos quatro partes ou regiões logicamente distintas:
+
+# Instruções ou o código do programa 
+# Variáveis globais 
+# Pilha e heap.
+
+Mémoria é um recurso.
+
+# Utiliza-se nas construções dos programas, e é reutilizada pelo sistema
+operacional a dispor para outros programas.
+
+Para falar de Mémoria precisamos entender oque é stack (pilha.)
+
+Stack é uma estruta de dados simples

@@ -1,0 +1,18 @@
+Dentro dos componentes que críamos em angular já é criado uma classe
+para colocarmos todo nosso código js.
+
+O template do componente é e a extensão .html.
+
+Extensões e Caractéristicas:
+
+.html
+
+.css 
+
+.ts = Código typescript
+
+.spec.ts = Testes Unitários
+
+Todos os componentes no angular ao serem criados possuem selector
+o mesmo são tags htmls que renderizam seu conteúdo.
+

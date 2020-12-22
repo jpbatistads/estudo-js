@@ -5,8 +5,8 @@ problemas extremamente complexos.
 
 Existem diversos modelos de estruturas de dados, e novos modelos são criados 
 constantemente pois acompanham também a evolução dos algoritmos e das linguagens de 
-programação. Neste livro iremos abordar as estruturas clássicas, as quais podem ser 
-utilizadas com sucesso na maioria dos casos.
+programação. As estruturas clássicas, as quais podem ser utilizadas com sucesso na
+maioria dos casos.
 
 É um dos temas fundamentais da ciência da computação, utilizado nas mais variadas áreas e 
 para as mais variadas finalidades. No entanto para começarmos a entender o conceito devemos,

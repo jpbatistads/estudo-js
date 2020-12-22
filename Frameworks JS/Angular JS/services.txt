@@ -1,0 +1,7 @@
+Componente--> Service --> backend = nodejs,java.net,ruby,python
+
+Os componentes não devem buscar ou salvar dados diretamente e certamente não devem
+apresentar dados falsos intencionalmente. Eles devem se concentrar na apresentação 
+de dados e delegar acesso a dados a um serviço.
+
+Os serviços são uma ótima maneira de compartilhar informações entre classes que não se conhecem
